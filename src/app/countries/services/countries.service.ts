@@ -17,7 +17,6 @@ export class CountriesService {
   }
 
   constructor(private httpClient: HttpClient) {
-    debugger;
     this.loadFromLocalStorage();
   }
 
